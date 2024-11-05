@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--  Base application theme.  -->
+<style name="Base.Theme.Hatitarua" parent="Theme.Material3.DayNight.NoActionBar">
+<!--  Primary brand color.  -->
+<item name="colorPrimary">@color/dark_status_bar</item>
+<item name="colorPrimaryVariant">@color/dark_body</item>
+<item name="colorOnPrimary">@color/black</item>
+<!--  Secondary brand color.  -->
+<item name="colorSecondary">@color/dark_menu_selected</item>
+<item name="colorSecondaryVariant">@color/dark_menu_not_selected</item>
+<item name="colorOnSecondary">@color/dark_card_bg</item>
+<!--  Status bar color.  -->
+<item name="android:statusBarColor">@color/dark_status_bar</item>
+<!--  Customize your theme here.  -->
+<!--  no title bar.  -->
+<item name="android:windowActionBar">false</item>
+<item name="android:windowNoTitle">true</item>
+<!--  TextView & EditText Color here.  -->
+<item name="android:textColorPrimary">@android:color/black</item>
+<item name="android:textColorHint">@color/white</item>
+<!--  light status bar color  -->
+<item name="android:windowLightStatusBar">false</item>
+</style>
+<style name="Theme.Hatitarua.FullScreen" parent="@style/Base.Theme.Hatitarua">
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowActionBar">false</item>
+<item name="android:windowFullscreen">true</item>
+<item name="android:windowContentOverlay">@null</item>
+</style>
+</resources>
